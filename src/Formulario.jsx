@@ -55,7 +55,7 @@ export const Formulario = () => {
         />
       </form>
       <div className="qr">
-        <QRCodeSVG id="qrcode" value={formulario.nombre} />
+        <QRCodeSVG id="qrcode" className="qrcode" value={formulario.nombre} />
       </div>
       <div style={{display: 'flex', flexDirection:'row', justifySelf:'center'}}>
         {formatos.map((formato, index)=>(

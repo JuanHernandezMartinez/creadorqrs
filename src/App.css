@@ -25,5 +25,11 @@ input{
 }
 
 .qr{
-  padding-top: 30px;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.qrcode{
+  width: 512px;
+  height: 512px;
 }
